@@ -2,17 +2,21 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: white;
+    
    }
 
-#nav nav{
+   #nav nav{
     display: flex ;
     background-color: #00425A;
+    align-items: end;
+ }
 
-}
-ul{
+ ul{
     list-style-type: none;
     text-decoration: none;
     
+ 
 }
 a{
     color: azure;
@@ -22,7 +26,6 @@ a:link { text-decoration:none;
   a:visited { 
     text-decoration:none; 
 }
-
 .titulo{
     background-image: url(https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80) ;
     background-size: cover;
@@ -40,18 +43,30 @@ a:link { text-decoration:none;
 
   
 }
-#quienes_somos, #por_que_elegirnos, #propuesta{
+.card{
+    align-items: center;
+    width: 95%;
+
+ }
+ .contacto input{
+margin: 10px;
+
+ }
+ .contacto{
+    padding: 20px;
+    margin: auto;
+    width: 75%;
+    align-items: center;
+ }
+ textarea{
+    margin: 10px;
+ }
+ 
+ #quienes_somos, #por_que_elegirnos, #propuesta{
     background-color: #00425A;
     color: aliceblue;
     text-align: center;
-    padding: 15px;
-}
-
-img{
-width: 30%;
-display: flex;
-height: auto;
-text-align: center;
+    padding: 20px;
 }
 dt{
     font-weight: bold;
@@ -62,21 +77,330 @@ article{
     padding: 5px;
     margin: 5px;
 }
-div{
-    border: 1px solid #00425A;
-    width: 30%;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-   
+#form{
+    background-color: #00425A;
+    color: aliceblue;
 }
- #noticias{
+
+.titulo_footer .redes_footer{
+    font-size: 20px;
+    padding: 10px;
+}
+.titulo_footer{
+    margin: 15px;
+    color: aliceblue;
+}
+footer{
+    background-color: #00425A;
+}
+  }
+
+
+  @media screen and (min-width:481px) and (max-width:900px){ 
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    
+   }
+
+   #nav nav{
+    display: flex ;
+    background-color: #00425A;
+
+ }
+
+ ul{
+    list-style-type: none;
+    text-decoration: none;
+    
+ 
+}
+a{
+    color: azure;
+}
+a:link { text-decoration:none;
+ }
+  a:visited { 
+    text-decoration:none; 
+}
+.titulo{
+    background-image: url(https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80) ;
+    background-size: cover;
+    font-size: 100px;
+    background-repeat: space;
+    text-align: center;
+    height: 80vh;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: #00425A;
+    text-shadow: 2px 2px 1px rgb(212, 211, 211);
 
-}     
-      
+  
 }
+.card{
+    align-items: center;
+    width: 95%;
+
+ }
+ #noticias{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .contacto input{
+margin: 10px;
+
+ }
+ .contacto{
+    padding: 20px;
+    margin: auto;
+    width: 75%;
+    align-items: center;
+ }
+ textarea{
+    margin: 10px;
+ }
+ 
+ #quienes_somos, #por_que_elegirnos, #propuesta{
+    background-color: #00425A;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+dt{
+    font-weight: bold;
+}
+article{
+    border-radius: 10px;
+    border: #00425A solid 1px;
+    padding: 5px;
+    margin: 5px;
+}
+#form{
+    background-color: #00425A;
+    color: aliceblue;
+}
+
+.titulo_footer .redes_footer{
+    font-size: 20px;
+    padding: 10px;
+}
+.titulo_footer{
+    margin: 15px;
+    color: aliceblue;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #00425A;
+}
+ }
+
+@media screen and (min-width:901px){
+ 
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-color: white;
+        
+       }
+    
+       #nav nav{
+        display: flex ;
+        background-color: #00425A;
+        align-items: end;
+     }
+    
+     ul{
+        list-style-type: none;
+        text-decoration: none;
+        
+     
+    }
+    a{
+        color: azure;
+    }
+    a:link { text-decoration:none;
+     }
+      a:visited { 
+        text-decoration:none; 
+    }
+    .titulo{
+        background-image: url(https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80) ;
+        background-size: cover;
+        font-size: 500px;
+        background-repeat: space;
+        text-align: center;
+        height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        color: #00425A;
+        text-shadow: 2px 2px 1px rgb(212, 211, 211);
+    
+      
+    }
+    .card{
+        align-items: center;
+        width: 95%;
+    
+     }
+     .contacto input{
+    margin: 10px;
+    
+     }
+     .contacto{
+        padding: 20px;
+        margin: auto;
+        width: 75%;
+        align-items: center;
+     }
+     textarea{
+        margin: 10px;
+     }
+     
+     #quienes_somos, #por_que_elegirnos, #propuesta{
+        background-color: #00425A;
+        color: aliceblue;
+        text-align: center;
+        padding: 20px;
+    }
+    dt{
+        font-weight: bold;
+    }
+    article{
+        border-radius: 10px;
+        border: #00425A solid 1px;
+        padding: 5px;
+        margin: 5px;
+    }
+    #form{
+        background-color: #00425A;
+        color: aliceblue;
+    }
+    
+    .titulo_footer .redes_footer{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .titulo_footer{
+        margin: 15px;
+        color: aliceblue;
+    }
+    footer{
+        background-color: #00425A;
+    }
+      }
+    
+    
+      @media screen and (min-width:481px) and (max-width:900px){ 
+    
+      body{
+        font-family: 'Poppins', sans-serif;
+        background-color: white;
+        
+       }
+    
+       #nav{
+        display: flex ;
+        background-color: #00425A;
+        
+     }
+    
+     ul{
+        list-style-type: none;
+        text-decoration: none;
+        
+     
+    }
+    a{
+        color: azure;
+    }
+    a:link { text-decoration:none;
+     }
+      a:visited { 
+        text-decoration:none; 
+    }
+    .titulo{
+        background-image: url(https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80) ;
+        background-size: cover;
+        font-size: 100px;
+        background-repeat: space;
+        text-align: center;
+        height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        color: #00425A;
+        text-shadow: 2px 2px 1px rgb(212, 211, 211);
+    
+      
+    }
+    .card{
+        align-items: center;
+        width: 95%;
+    
+     }
+     #noticias{
+        display: flex;
+        justify-content: space-evenly;
+     }
+     .contacto input{
+    margin: 10px;
+    
+     }
+     .contacto{
+        padding: 20px;
+        margin: auto;
+        width: 75%;
+        align-items: center;
+     }
+     textarea{
+        margin: 10px;
+     }
+     
+     #quienes_somos, #por_que_elegirnos, #propuesta{
+        background-color: #00425A;
+        color: aliceblue;
+        text-align: center;
+        padding: 20px;
+    }
+    dt{
+        font-weight: bold;
+    }
+    article{
+        border-radius: 10px;
+        border: #00425A solid 1px;
+        padding: 5px;
+        margin: 5px;
+    }
+    #form{
+        background-color: #00425A;
+        color: aliceblue;
+    }
+    
+    .titulo_footer .redes_footer{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .titulo_footer{
+        margin: 15px;
+        color: aliceblue;
+    
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: #00425A;
+    }
+} 
       
       
       

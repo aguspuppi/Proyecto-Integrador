@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto - UntrefSchool</title>
+    <link rel="icon" type="image/png" href="./IMG/colegio.png"> 
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body id="form">
+    <section class="contacto">
+        <form action="https://formspree.io/f/xaygnzev" method="POST" enctype="multipart/form-data">
+            <h1>Formulario de contacto</h1>
+    
+        <label for="nombre">Nombre y Apellido:
+            <input type="text" name="Nombre" id="nombre">
+        </label>
+        <br>
+        <label for="nombre_niño">Nombre y Apellido del niño:
+            <input type="text" name="Nombre del niño" id="nombre_niño" required>
+        </label>
+        <br>
+        <label for="email">Email: 
+            <input type="email" name="email" id="email" required>
+        </label>
+        <br>
+        <label for="telefono">Teléfono: <input type="tel" name="telefono" id="telefono" required></label>
+        <br>
+        <label for="grado">Grado de ingreso</label>
+      <select id="grado" name="grado" required>
+        <option value="1">1°</option>
+        <option value="2">2°</option>
+        <option value="3">3°</option>
+        <option value="4">4°</option>
+        <option value="5">5°</option>
+        <option value="6">6°</option>
+        <option value="7">7°</option>
+      </select>
+      <br>
+        <label for="mensaje"> Dejanos tu mensaje
+            <br>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        </label>
+        <br>
+    <button>Enviar</button>   
+    </form>
+    </section>
+</body>
+</html>
