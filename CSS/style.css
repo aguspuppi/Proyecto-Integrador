@@ -25,6 +25,7 @@ body{
         border-radius: 8px;
         border: solid azure 1px;
         color: aliceblue;
+        z-index: 1;
 
    }
    
@@ -100,9 +101,6 @@ dt{
  #card{
     border-radius: 10px;
     border: #00425A solid 2px;
-padding: 15px;
-
-
 
 }
 #noticias{
@@ -197,5 +195,14 @@ padding-top: 30px;
 text-align: center;
 padding: 10px;
  }
+ #noticias{
+    display: flex;  
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 48%; 
+}
 
   }
