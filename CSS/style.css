@@ -4,7 +4,7 @@ body{
     background-color: white;
     
    }
-   .btn_flotante{
+   .btn-flotante{
     background-color: #FC7300;
     display:scroll;
         position:fixed;
@@ -157,4 +157,32 @@ padding-top: 30px;
     background-color: #FC7300;
 }
 
- 
+ @media screen and (min-width: 650px) {
+        ul{
+            list-style-type: none;
+            text-decoration: none;
+            text-align: justify;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         padding-left: 30px;
+        }
+       
+           footer{
+            background-color: #00425A;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: space-around;
+           
+ }
+ .titulo-form2{
+    text-align: center;
+}
+ form{
+text-align: center;
+padding: 10px;
+ }
+
+  }
