@@ -4,6 +4,18 @@ body{
     background-color: white;
     
    }
+   .btn-flotante button a{
+    background-color: #FC7300;
+    display:scroll;
+        position:fixed;
+        bottom:20px;
+        right:10px;
+        border-radius: 8px;
+        border: solid azure 1px;
+        color: aliceblue;
+        width: 50px;
+
+   }
    .btn-flotante{
     background-color: #FC7300;
     display:scroll;
@@ -15,6 +27,7 @@ body{
         color: aliceblue;
 
    }
+   
    #nav ul{
     background-color:#00425A;
     padding-top: 10px;
